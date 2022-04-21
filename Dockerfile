@@ -1,4 +1,4 @@
-FROM node:16
+FROM node:16-alpine
 COPY  . /var/www
 WORKDIR /var/www
 RUN npm install
